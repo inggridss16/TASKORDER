@@ -1,0 +1,30 @@
+﻿@model TASKORDER.Models.AddOrderViewModel
+
+
+<h1>Create Order</h1>
+<br />
+<form method="post" action="Create">
+    <div class="mb-3">
+        <label for="" class="form-label">Order Id</label>
+        <input type="text" class="form-control" asp-for="OrderId">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Order Name</label>
+        <input type="text" class="form-control" asp-for="OrderName">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Order Date</label>
+        <input type="date" class="form-control" asp-for="OrderDate">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Quantity</label>
+        <input type="number" class="form-control" asp-for="Qty">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+<script>
+    
+</script>
